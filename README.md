@@ -26,3 +26,14 @@ Results:
 ✅ 100× speedup over SPICE simulation
 
 ✅ Robust across design space (X1 to X32 drive strengths)
+
+Technologies used: 
+
+✅Python
+
+✅scikit-learn
+
+✅pandas
+
+✅HSPICE
+
