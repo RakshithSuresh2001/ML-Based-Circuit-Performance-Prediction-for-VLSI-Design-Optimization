@@ -29,11 +29,4 @@ Results:
 
 Technologies used: 
 
-✅Python
-
-✅scikit-learn
-
-✅pandas
-
-✅HSPICE
-
+✅Python, scikit-learn, pandas, NumPy, matplotlib, Nangate 45nm library, Liberty file parsing, Random Forest regression
