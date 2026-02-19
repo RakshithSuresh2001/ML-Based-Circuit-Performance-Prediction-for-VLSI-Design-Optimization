@@ -56,15 +56,17 @@ Traditional VLSI design workflows require running thousands of time-consuming SP
 
 ## 📊 Results
 
-### Model Performance
+## Model Comparison
 
-| Model | R² Score | MAE (ps) | RMSE (ps) |
-|-------|----------|----------|-----------|
-| **Random Forest** | **0.979** | **2.87** | **3.45** |
-| Gradient Boosting | 0.972 | 3.21 | 3.89 |
-| Ridge Regression | 0.891 | 8.45 | 10.23 |
-| Lasso Regression | 0.883 | 8.92 | 10.67 |
-| Linear Regression | 0.879 | 9.12 | 10.89 |
+| Algorithm | R² Score | MAE (ps) | RMSE (ps) | Training Time |
+|-----------|----------|----------|-----------|---------------|
+| Linear Regression | 0.847 | 5.23 | 6.41 | 0.02s |
+| Ridge | 0.851 | 5.18 | 6.35 | 0.03s |
+| Lasso | 0.843 | 5.31 | 6.48 | 0.05s |
+| Decision Tree | 0.912 | 3.94 | 4.72 | 0.08s |
+| **Random Forest** | **0.979** | **2.87** | **3.45** | 0.24s |
+
+**Winner: Random Forest** - Best accuracy with acceptable training time
 
 ### Key Achievements
 
