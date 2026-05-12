@@ -98,7 +98,7 @@ Traditional VLSI design workflows require running thousands of time-consuming SP
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/ML-VLSI-Circuit-Prediction.git
+git clone https://github.com/RakshithSuresh2001/ML-VLSI-Circuit-Prediction.git
 cd ML-VLSI-Circuit-Prediction
 ```
 
