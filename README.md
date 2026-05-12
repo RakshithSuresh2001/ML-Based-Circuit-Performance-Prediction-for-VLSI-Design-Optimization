@@ -380,7 +380,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/ML-VLSI-Circuit-Prediction.git
+git clone https://github.com/RakshithSuresh2001/ML-VLSI-Circuit-Prediction.git
 cd ML-VLSI-Circuit-Prediction
 conda env create -f environment.yml
 conda activate ml-vlsi
