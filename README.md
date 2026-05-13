@@ -68,6 +68,8 @@ Traditional VLSI design workflows require running thousands of time-consuming SP
 
 **Winner: Random Forest** - Best accuracy with acceptable training time
 
+<img width="2084" height="878" alt="holdout_validation" src="https://github.com/user-attachments/assets/47270ba3-55d8-4c7d-9682-691bd6772d3d" />
+
 ### Key Achievements
 
 - 🎯 **97.9% prediction accuracy** (R² score)
@@ -320,6 +322,8 @@ Total_Delay = Intrinsic_Delay + R_driver × C_load
 ```
 
 At heavy loads (C_load >> 10fF), the R_driver reduction dominates!
+
+Held-Out Cell Validation (5 unseen cells): AND3_X2 predicted within 9.5%. INV_X1 and NAND2_X4 showed high percentage errors but absolute errors under 5 ps — the model overshoots on very small/fast cells (<10 ps). This points to the need for load-capacitance as an additional feature.
 
 ---
 
