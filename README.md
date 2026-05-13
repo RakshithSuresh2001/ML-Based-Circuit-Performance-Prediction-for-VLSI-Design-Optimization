@@ -327,6 +327,17 @@ Held-Out Cell Validation (5 unseen cells): AND3_X2 predicted within 9.5%. INV_X1
 
 ---
 
+### Held-Out Cell Validation (5 unseen cells)
+| Cell | Actual (ps) | Predicted (ps) | Error (ps) | Error % |
+|------|------------|----------------|------------|---------|
+| AND3_X2 | 26.14 | 28.62 | 2.48 | 9.5% |
+| BUF_X2  | 16.43 | 23.08 | 6.66 | 40.5% |
+| INV_X1  | 4.47  | 8.16  | 3.69 | 82.6% ⚠ |
+| NAND2_X4| 6.40  | 11.36 | 4.96 | 77.5% ⚠ |
+| NOR3_X1 | 12.60 | 18.40 | 5.79 | 46.0% |
+
+High % errors on INV_X1 and NAND2_X4 reflect model weakness on very small/fast cells (<10 ps). Absolute errors remain under 5 ps. Fix: adding load capacitance as a feature.
+
 ## 📈 Use Cases
 
 ### 1. Rapid Design Space Exploration
